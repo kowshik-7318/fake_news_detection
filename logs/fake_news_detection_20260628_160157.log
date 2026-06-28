@@ -1,0 +1,23 @@
+2026-06-28 16:03:23,484 - __main__ - INFO - Dataset loaded successfully: news.csv
+2026-06-28 16:03:23,527 - __main__ - INFO - Dataset processed: 200 samples
+2026-06-28 16:03:24,602 - __main__ - INFO - Dataset loaded and explored successfully
+2026-06-28 16:08:58,022 - __main__ - INFO - Starting corpus preprocessing...
+2026-06-28 16:08:59,886 - __main__ - INFO - Preprocessing complete. Processed 200 texts.
+2026-06-28 16:08:59,924 - __main__ - INFO - Text preprocessing completed successfully
+2026-06-28 16:11:16,641 - __main__ - INFO - Fitting TF-IDF vectorizer...
+2026-06-28 16:11:16,661 - __main__ - INFO - TF-IDF vectorization complete. Shape: (160, 416)
+2026-06-28 16:11:16,666 - __main__ - INFO - Starting model training and evaluation...
+2026-06-28 16:11:16,672 - __main__ - INFO - Training Logistic Regression...
+2026-06-28 16:11:16,717 - __main__ - INFO - Logistic Regression - Accuracy: 0.9750, F1: 0.9744
+2026-06-28 16:11:16,717 - __main__ - INFO - Training Multinomial NB...
+2026-06-28 16:11:16,733 - __main__ - INFO - Multinomial NB - Accuracy: 0.9750, F1: 0.9744
+2026-06-28 16:11:16,733 - __main__ - INFO - Training Random Forest...
+2026-06-28 16:11:16,906 - __main__ - INFO - Random Forest - Accuracy: 0.9750, F1: 0.9744
+2026-06-28 16:11:16,906 - __main__ - INFO - Training Linear SVM...
+2026-06-28 16:11:16,946 - __main__ - INFO - Linear SVM - Accuracy: 1.0000, F1: 1.0000
+2026-06-28 16:11:16,947 - __main__ - INFO - Best model: Linear SVM
+2026-06-28 16:11:17,877 - __main__ - INFO - Confusion matrices saved to confusion_matrix.png
+2026-06-28 16:11:17,887 - __main__ - INFO - Best model saved to best_model.pkl
+2026-06-28 16:11:17,894 - __main__ - INFO - Model training completed successfully
+2026-06-28 16:11:21,883 - __main__ - INFO - Model loaded successfully
+2026-06-28 16:15:25,671 - __main__ - INFO - Prediction made: REAL (Fake: 3.90%, Real: 96.10%)

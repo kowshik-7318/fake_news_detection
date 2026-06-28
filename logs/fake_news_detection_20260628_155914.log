@@ -1,0 +1,23 @@
+2026-06-28 15:59:14,184 - __main__ - ERROR - Fatal error: 
+**********************************************************************
+  Resource 'stopwords' not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('stopwords')
+
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load 'corpora/stopwords'
+
+  Searched in:
+    - 'C:\\Users\\KOWSHIK/nltk_data'
+    - 'C:\\Users\\KOWSHIK\\AppData\\Local\\Programs\\Python\\Python313\\nltk_data'
+    - 'C:\\Users\\KOWSHIK\\AppData\\Local\\Programs\\Python\\Python313\\share\\nltk_data'
+    - 'C:\\Users\\KOWSHIK\\AppData\\Local\\Programs\\Python\\Python313\\lib\\nltk_data'
+    - 'C:\\Users\\KOWSHIK\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+

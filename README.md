@@ -139,7 +139,7 @@ The application displays:
 
 ## 👨‍💻 Author
 
-**Kowshik**
+**Kowsik**
 
 Machine Learning & NLP Major Project
 
